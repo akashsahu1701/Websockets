@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+div {
+  font-family: poppins, sans-serif;
+}
+.background {
+  min-height: 100vh;
+  background: #c8d8e4;
+}
+.homecards {
+  background: #f2f2f2;
+  width: 100%;
+  box-shadow: 0px 3.48531px 3.48531px rgba(51, 51, 51, 0.04),
+    0px 3.48531px 13.9413px rgba(51, 51, 51, 0.08);
+  border-radius: 15px;
+  border: 2px solid #e4e4e4;
+  margin-bottom: 2vh;
+}
+.bags {
+  width: 60%;
+  height: 30vh;
+  margin: 5% 20%;
+}
+.heading {
+  margin-top: 3vh;
+  font-size: 3vh;
+  font-weight: 700;
+  text-align: center;
+}
+.btn {
+  width: 80%;
+  height: 8vh;
+  text-align: center;
+  font-size: 3vh;
+  margin: 3% 10%;
+  border-radius: 15px;
+  background: #2b6777;
+  border: 1px solid #2b6777;
+  color: white;
+  box-shadow: 0px 3.48531px 3.48531px rgba(51, 51, 51, 0.04),
+    0px 3.48531px 13.9413px rgba(124, 81, 81, 0.08);
+}
+.bottom {
+  text-align: center;
+}
+.forminputs {
+  width: 90%;
+  height: 6vh;
+  font-size: 2.5vh;
+}
+.forms-div {
+  height: 3rem;
+  box-shadow: 0px 3.48531px 3.48531px rgba(51, 51, 51, 0.04),
+    0px 3.48531px 13.9413px rgba(124, 81, 81, 0.08);
+  display: flex;
+  margin: 2vh 0;
+}
+input {
+  border: 1px solid #e4e4e4;
+  padding-left: 5%;
+  background: #f2f2f2;
+  height: 100%;
+  width: 100%;
+  font-size: 2vh;
+  border: none;
+}
+input::placeholder {
+  color: dimgray;
+}
+select {
+  border: 1px solid #e4e4e4;
+  padding-left: 5%;
+  background: #f2f2f2;
+  height: 100%;
+  width: 100%;
+  font-size: 2vh;
+  border: none;
+}
+option {
+  border: 1px solid #e4e4e4;
+  padding-left: 5%;
+  background: #f2f2f2;
+  height: 100%;
+  width: 100%;
+  font-size: 2vh;
+  border: none;
+}
+.bb {
+  border-bottom: 2px solid #3471eb;
+  margin: 0 10px;
+  color: #3471eb;
+}
+.back {
+  position: absolute;
+  top: 0px;
+  left: 3vw;
+  height: 8vh;
+  padding-top: 3vh;
+}
+.login {
+  position: absolute;
+  top: 0px;
+  right: 3vw;
+  height: 8vh;
+  padding-top: 3vh;
+}
+.icons-div {
+  width: 10%;
+  height: 100%;
+  background: #f2f2f2;
+}
+.icons {
+  height: 100%;
+  width: 100%;
+  color: #545151;
+}
+.otp-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.chat-div {
+  height: 70vh;
+  overflow: scroll;
+}
